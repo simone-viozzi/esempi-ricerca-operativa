@@ -1,0 +1,16 @@
+\* Problem: mix produttivo *\
+
+Maximize
+ obj: + 25 A + 28 B
+
+Subject To
+ azoto: + 0.24 B + 0.4 A <= 312
+ fosforo: + 0.45 B + 0.4 A <= 360
+ potassio: + 0.31 B + 0.1 A <= 160
+ magnesio: + 0.1 A <= 70
+
+Generals
+ A
+ B
+
+End
