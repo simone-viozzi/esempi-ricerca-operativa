@@ -9,3 +9,5 @@ model.OBJ = pyo.Objective(expr = 2*model.x[1] + 3*model.x[2])
 model.Constraint1 = pyo.Constraint(expr = 3*model.x[1] + 4*model.x[2] >= 1)
 
 pyo.SolverFactory('glpk').solve(model).write()
+
+model.pprint()
