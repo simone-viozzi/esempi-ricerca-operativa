@@ -438,3 +438,5 @@ ipython_config.py
 #   git rm -r .ipynb_checkpoints/
 
 pdfs/
+
+.vscode/
